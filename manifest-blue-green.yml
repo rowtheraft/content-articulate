@@ -1,13 +1,12 @@
 applications:
-- name: articulate-blue
+- name: articulate-blue-pcftest
   path: target/articulate-1.0.jar
   memory: 1G
   instances: 1
   buildpack: java_buildpack
   stack: cflinuxfs2
-  env:
-    JAVA_OPTS: -Xss228k
-- name: articulate-green
+  
+- name: articulate-green-pcftest
   path: target/articulate-1.0.jar
   memory: 1G
   instances: 1
